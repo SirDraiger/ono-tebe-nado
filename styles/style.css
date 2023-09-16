@@ -77,7 +77,8 @@
 }
 
 .overlay {
-  background-color: #00000060;
+  background-color: #000000;
+  opacity: 0.6;
   position: absolute;
   inset: 0;
 }
@@ -268,7 +269,7 @@
 }
 
 .about {
-  padding: 0 50px 180px 50px;
+  padding: 0 50px 183px 50px;
   max-width: 1440px;
   margin: auto;
 }
@@ -304,9 +305,11 @@
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 1.175em;
   text-transform: uppercase;
-  margin: 100px 0; /* Поискать более изящное решение */
+  align-self: center;
+  margin: 101px 0;
+    /* Поискать более изящное решение */
 }
 
 .about__text {
@@ -317,11 +320,15 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.15em;
 }
 
-.about__text p:first-child {
-  margin-bottom: 25px;
+.about__text p {
+  margin-bottom: 29px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
 }
 
 
