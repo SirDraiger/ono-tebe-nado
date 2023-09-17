@@ -25,7 +25,6 @@
 
 .header__links-item_no-bullit {
   list-style: none;
-
 }
 
 .header__link {
@@ -261,7 +260,7 @@
   font-size: 20px;
   font-style: normal;
   line-height: normal;
-  text-decoration: underline;
+  text-decoration: underline 1px;
   text-underline-position: under;
 }
 
